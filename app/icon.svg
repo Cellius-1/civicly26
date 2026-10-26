@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Civicly">
+  <title>Civicly</title>
+  <rect width="32" height="32" rx="7.5" fill="#0e3b43"/>
+  <path d="M8 5.5H24A3 3 0 0 1 27 8.5V19.5A3 3 0 0 1 24 22.5H14.2L8.6 26.8L9.7 22.5H8A3 3 0 0 1 5 19.5V8.5A3 3 0 0 1 8 5.5Z" fill="#c8922f"/>
+  <path d="M16 8.1L23.6 12.4H8.4Z M10.1 13.5h2.4v5.4h-2.4zM14.8 13.5h2.4v5.4h-2.4zM19.5 13.5h2.4v5.4h-2.4z M8.6 19.7h14.8v1.5H8.6z" fill="#0e3b43"/>
+</svg>
