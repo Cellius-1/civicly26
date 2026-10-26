@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Archivo, IBM_Plex_Mono, Petrona } from 'next/font/google'
 import { JsonLd } from '@/components/JsonLd'
+import { ServiceWorker } from '@/components/ServiceWorker'
 import { ToastHost } from '@/components/ToastHost'
 import { siteGraph } from '@/lib/schema'
 import { SITE } from '@/lib/site'
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a className="skip" href="#main">Skip to main content</a>
         <div id="main">{children}</div>
         <ToastHost />
+        <ServiceWorker />
       </body>
     </html>
   )
